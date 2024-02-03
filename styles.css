@@ -354,7 +354,8 @@
   .services .title::after,
   .projects .title::after {
     background: #111;
-    content: "What Can I Do ?";
+    content: "What I Can Do ?";
+    color: #fff;
   }
   
   .services .serv-content .card {
@@ -885,6 +886,11 @@
       width: 100%;
       margin-bottom: 35px;
     }
+  }
+
+  .card a {
+    color: inherit; /* This will make the text color the same as the parent element */
+    text-decoration: none; /* This will remove the underline */
   }
   
   @media (max-width: 690px) {
